@@ -22,3 +22,8 @@ nav ul li > a{
     text-decoration: none;
     color: black;
 }
+
+nav ul li:last-child > *{
+    font-size: 25px;
+    margin: 5px;
+}

@@ -3,7 +3,7 @@ import Logo from '../../assets/Logo.png'
 import { FaTelegram } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaYoutube } from "react-icons/fa";
-import {NavLink} from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import "./Navbar.css"
 
 function Navbar() {
@@ -11,10 +11,13 @@ function Navbar() {
         <nav>
             <ul>
                 <li>
-                    <img src={Logo} alt="" />
+                    <img
+                        src={Logo}
+                        alt=""
+                    />
                 </li>
                 <li>
-                    <NavLink>О нас</NavLink>
+                    <NavLink>O нас</NavLink>
                     <NavLink>Услуги</NavLink>
                     <NavLink>Как купить</NavLink>
                     <NavLink>Преимущества</NavLink>
