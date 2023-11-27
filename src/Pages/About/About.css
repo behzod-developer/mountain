@@ -1,0 +1,50 @@
+.about {
+    background-color: #F4F6F8;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.about .container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+.about .container .parent h1 {
+    font-size: 32px;
+    padding: 15px;
+}
+
+.about .container .parent p {
+    font-size: 18px;
+}
+
+.about .container .parent button {
+    padding: 0.9rem 3rem;
+    margin: 20px;
+    border: 0;
+    background-color: #F50E30;
+    color: white;
+    border-radius: 8px;
+}
+
+.about .container .parent .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.about .container .parent .cards .card {
+    background-color: white;
+    padding: 12px;
+}
+
+.about .container .parent .cards .card img {
+    margin-left: 20px;
+}
